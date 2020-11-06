@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    list-style: none;
+}
+
+header, section, nav, figure, article, div {
+    display: block;
+}
+
+header {
+    background-color: darkblue;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: ghostwhite;
+}
+
+
+/* Body */
+
+body {
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+
+
+/* Heading */
+h1 {
+    font-size: 300%;
+    letter-spacing: 15px;
+    width: inherit;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    Text-align: center;
+    background-color: inherit;
+}
+
+
+/* Horizontal Navigation */
+
+nav.horizontal {
+    width: 100%;
+    background-color: inherit;
+}
+
+nav.horizontal a {
+    color: inherit;
+    background-color: inherit;
+    float: right;
+    font-size: 200%;
+    font-family: inherit;
+    text-align: center;
+    width: 33.33%;
+    text-decoration: none;
+}
+
+nav.horizontal a:hover {
+    color: darkblue;
+    background-color: ghostwhite;
+}
+
