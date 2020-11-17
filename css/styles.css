@@ -71,6 +71,7 @@ h4 {
         background-color: #0b7abf;
     }
 
+
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -194,24 +195,6 @@ footer .glyphicon {
     100% {
         opacity: 1;
         -webkit-transform: translateY(0%);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
-
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
     }
 }
 
